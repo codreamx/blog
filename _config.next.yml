@@ -197,7 +197,7 @@ footer:
 # See: https://theme-next.js.org/docs/theme-settings/posts
 # ---------------------------------------------------------------
 # Use `description` in front-matter to specify post excerpt.
-excerpt_description: true
+excerpt_description: false
 # Read more button
 # If true, the read more button will be displayed in excerpt section.
 read_more_btn: true
@@ -212,8 +212,11 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
-  separated_meta: true
-  item_text_total: false
+  separated_meta: true  # 换行显示
+  item_text_post: true  # 是否显示说明文字
+  item_text_total: false  # 站底总字数统计 不显示说明文字
+  awl: 2	
+  wpm: 300
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
 # Donate (Sponsor) settings
