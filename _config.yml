@@ -3,19 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Nebula'
-subtitle: 'Starlink Codream'
+title: "星链云"
+subtitle: "Starlink Codream's homepage"
 description: ''
-keywords: 'luoxl Luo Xiao Long Codream'
-author: Luo Xiao Long
+keywords: 'Codream Cloud,Starlink'
+author: Codream
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.luoxl.com/blog
-permalink: :year/:month/:day/:title/
+url: https://blog.luoxl.com
+permalink: "post/:abbrlink" #":year/:month/:day/:hash" #:category/:title #:year/:month/:day/:title/
 permalink_defaults:
+  lang: 'en'
+abbrlink:
+  alg: crc32 	# 算法：crc16(default) and crc32
+  rep: hex 		# 进制：dec(default) and hex
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -65,7 +69,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: default
 category_map:
 tag_map:
 
@@ -96,7 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next #landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -104,4 +108,4 @@ deploy:
   type: 'git'
   repo: 'https://github.com/codreamx/codreamx.github.io'
   branch: main
-  message: 'Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})'
+  message:  #'Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})'
