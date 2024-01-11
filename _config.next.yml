@@ -25,7 +25,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -147,7 +147,8 @@ links_settings:
   # Available values: block | inline
   layout: block
 links:
-  #Title: https://example.com
+  Website: https://www.luoxl.com
+  Gitee: https://www.gitee.com
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
 toc:
@@ -187,9 +188,9 @@ footer:
     enable: true
     icp: "粤ICP备2023159139号"
     # The digit in the num of gongan beian.
-    gongan_id:
+    gongan_id: 44030002002082
     # The full num of gongan beian.
-    gongan_num:
+    gongan_num: 粤公网安备44030002002082号
     # The icon for gongan beian. Login and See: https://beian.mps.gov.cn/web/business/businessHome/website
     gongan_icon_url: "/images/beian_icon.png"
 # ---------------------------------------------------------------
@@ -197,7 +198,7 @@ footer:
 # See: https://theme-next.js.org/docs/theme-settings/posts
 # ---------------------------------------------------------------
 # Use `description` in front-matter to specify post excerpt.
-excerpt_description: false
+excerpt_description: true
 # Read more button
 # If true, the read more button will be displayed in excerpt section.
 read_more_btn: true
@@ -309,9 +310,9 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
-    style: mac
+    style: default
   # Fold code block
   fold:
     enable: false
@@ -408,7 +409,7 @@ bing_site_verification:
 yandex_site_verification:
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification:
+baidu_site_verification: "CP86Bp7ZdrUZkIWG"
 # ---------------------------------------------------------------
 # Tags Settings
 # See: https://theme-next.js.org/docs/tag-plugins/
@@ -480,14 +481,14 @@ math:
 # ---------------------------------------------------------------
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
-pjax: false
+pjax: true
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
 fancybox: false
 # Medium Zoom is a JavaScript library for zooming images like Medium.
 # Warning: Do not enable both `fancybox` and `mediumzoom`.
 # For more information: https://medium-zoom.francoischalifour.com
-mediumzoom: false
+mediumzoom: true
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://apoorv.pro/lozad.js/demo/
 lazyload: true
@@ -648,7 +649,7 @@ google_analytics:
   measure_protocol_api_secret:
 # Baidu Analytics
 # See: https://tongji.baidu.com
-baidu_analytics: # <app_id>
+baidu_analytics: "247557fb7d2501d6e54b9f2b2095f0c8" # <app_id>
 # Growingio Analytics
 # See: https://www.growingio.com
 growingio_analytics: # <project_id>
