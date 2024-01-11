@@ -4,6 +4,7 @@ categories:
   - Software
   - HTML&CSS
 abbrlink: c43ef17d
+excerpt: SVG switch tag by system Language
 ---
 
 # SVG switch tag

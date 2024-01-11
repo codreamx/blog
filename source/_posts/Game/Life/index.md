@@ -4,6 +4,8 @@ abbrlink: 62fa798f
 categories:
   - Game
   - Life
+cover: tetris-randomizers.jpg
+excerpt: ' Conway''s Game of Life for HTML5 Canvas Conway''s Game of Life for HTML5 Canvas Conway''s Game of Life for HTML5 Canvas Conway''s Game of Life for HTML5 Canvas Conway''s Game of Life for HTML5 Canvas Conway''s Game of Life for HTML5 Canvas'
 ---
 # Life game
 

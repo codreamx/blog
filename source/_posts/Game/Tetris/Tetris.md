@@ -17,11 +17,9 @@ cover: tetris-randomizers.jpg
 
 [The history of Tetris randomizers](https://simon.lc/the-history-of-tetris-randomizers)
 
-# The history of Tetris randomizers
+<!-- more -->
 
 Nov 26, 2018
-
-<!-- more -->
 
 * [Programming](https://simon.lc/tags/programming)
 * [Tetris](https://simon.lc/tags/tetris)
@@ -150,4 +148,3 @@ Puzzle factor: 4/5Flood Prevention: 4/5Drought Prevention: 4/5
 It's hard to pin point it, but TGM3’s randomizer does feel more predictable, and less challenging. The clumsy 7-bag is unnatural feeling, but allows for many building strategies to be consistently viable. An unfriendly randomizer like in NES Tetris can ruin your game, or more likely, your mood to play.
 
 Can we better these systems by making them more random feeling, and putting hard limits on droughts and floods? Or do these hard limits just make the game more predictable?
-
