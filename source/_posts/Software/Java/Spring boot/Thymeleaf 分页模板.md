@@ -5,7 +5,7 @@ categories:
   - Java
   - Spring boot
 excerpt: Thymeleaf 分页模板
-abbrlink: 8f126aab
+abbrlink: 7ce9e0be
 ---
 
 # Thymeleaf 分页模板

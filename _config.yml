@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "星途"
-subtitle: "Starlink(Codream's Homepage)"
+title: "云梦引"
+subtitle: "Codream's Homepage"
 description: 'Blog'
-keywords: 'luoxl,XIAO LONG,LUO XIAO LONG,Codream,Cloud,Starlink'
+keywords: 'luoxl,XIAO LONG,LUO XIAO LONG,Codream,Starlink'
 author: Codream
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.luoxl.com
+url: https://blog.codream.top
 permalink: ":category/:abbrlink.html" #":year/:month/:day/:hash/" #:category/:title #:year/:month/:day/:title/
 permalink_defaults:
   lang: 'en'

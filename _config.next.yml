@@ -148,7 +148,7 @@ links_settings:
   # Available values: block | inline
   layout: block
 links:
-  Website: https://www.luoxl.com
+  Website: https://www.codream.top
   Gitee: https://www.gitee.com
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
@@ -187,11 +187,11 @@ footer:
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, https://beian.mps.gov.cn
   beian:
     enable: true
-    icp: "粤ICP备2023159139号"
+    icp: "粤ICP备2025436116号-1"
     # The digit in the num of gongan beian.
-    gongan_id: 44030002002082
+    gongan_id: 44030002007355
     # The full num of gongan beian.
-    gongan_num: 粤公网安备44030002002082号
+    gongan_num: 粤公网安备44030002007355号
     # The icon for gongan beian. Login and See: https://beian.mps.gov.cn/web/business/businessHome/website
     gongan_icon_url: "/images/beian_icon.png"
 # ---------------------------------------------------------------

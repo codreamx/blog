@@ -11,5 +11,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://blog.luoxl.com/sitemap.xml
-Sitemap: https://blog.luoxl.com/baidusitemap.xml
+Sitemap: https://blog.codream.top/sitemap.xml
+Sitemap: https://blog.codream.top/baidusitemap.xml
